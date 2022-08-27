@@ -56,7 +56,6 @@ body {
   border: 1px solid $celeste;
   border-radius: 0.5rem;
   padding: 5px;
-  margin-left: 300px;
   background-color: $celeste;
   box-shadow: -15px -12px 23px 0px rgba(0, 0, 0, 0.72);
 }
@@ -100,4 +99,8 @@ body {
 }
 .keypad-button.dark {
   background-color: lightgray;
+};
+
+@media only screen and (min-width: 600px){
+    @import "desktop";
 }

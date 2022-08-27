@@ -56,7 +56,6 @@ body {
   border: 1px solid #77beb5;
   border-radius: 0.5rem;
   padding: 5px;
-  margin-left: 300px;
   background-color: #77beb5;
   box-shadow: -15px -12px 23px 0px rgba(0, 0, 0, 0.72);
 }
@@ -106,4 +105,10 @@ body {
 
 .keypad-button.dark {
   background-color: lightgray;
+}
+
+@media only screen and (min-width: 600px) {
+  .calculator {
+    margin-left: 300px;
+  }
 }
